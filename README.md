@@ -1,1 +1,1 @@
-I am getting familiar with the work.
+I am glad I am understanding the program.
