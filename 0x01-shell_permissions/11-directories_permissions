@@ -1,4 +1,2 @@
 #!/bin/bash
-for subdirectory in $subdirectories; do
-  chmod u+x $subdirectory
-done
+find . -type d -exec chmod 111 {} \;
