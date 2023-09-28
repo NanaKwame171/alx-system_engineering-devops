@@ -1,1 +1,4 @@
 #!/bin/bash
+for subdirectory in $subdirectories; do
+  chmod u+x $subdirectory
+done
