@@ -1,2 +1,2 @@
 #!/bin/bash
-mv $uppercase_file /tmp/u
+mv find . -name "*[^a-z]*" /tmp/u
