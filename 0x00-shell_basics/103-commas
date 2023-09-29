@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e ".,..\n$(find . -type d -not -path './.*' -o -type f -not -path './.*' | sort -d -k 1,1 | tr '\n' ',' | sed 's/,/, /g')"
