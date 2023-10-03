@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ''sum(128 + true_knowledge)''
+echo ''sum(128+true_knowledge)''
