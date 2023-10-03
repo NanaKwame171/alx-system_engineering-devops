@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ''Number of directories in the PATH: grep -c '^/'''
+echo $PATH | tr ':' '\n' | wc -l
